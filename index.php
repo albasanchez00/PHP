@@ -15,6 +15,9 @@
     <br>
     <br>
     <a href="date.php">Ejemplo 3 de Date (fecha) PHP</a>
+    <br>
+    <br>
+    <a href="phpinfo.php">Info PHP</a>
 
 
 
