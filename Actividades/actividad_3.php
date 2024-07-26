@@ -12,7 +12,9 @@ echo "La posición del 2º de, es -> $de2";
 
 $dia=substr($hoy,0,$de1-1);
 $mes=substr($hoy,$de1+2, $de2-$de1-3);
-$anio=substr($hoy,$de1+12, $de2-$de1+5);
+echo "La cadena \"$hoy\" tiene longitud de " . strlen($hoy). "carácteres";
+$anio= substr($hoy,1,1);
+$anio=substr($hoy,$de2+3);
 echo "<br>";
 echo "El dia es $dia";
 echo "<br>";
