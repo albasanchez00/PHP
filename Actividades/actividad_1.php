@@ -1,4 +1,6 @@
 <?php
+include "../header.php";
+echo "<br>";
 //Conocer la longitud de una cadena
 $cadena="Bienvenido a mi página web.";
 $primeraLetra= substr($cadena,0,1);
